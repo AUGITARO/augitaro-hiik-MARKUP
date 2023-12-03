@@ -1,0 +1,86 @@
+@font-face { 
+    font-family: "NeutralFace";
+    src: url(../fonts/NeutralFace-Bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F2F0ED;
+}
+
+.container {
+    width: 1500px;
+    height: 100vh;
+}
+
+header {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.page-names {
+    text-decoration: none;
+}
+
+.page-names:not(:last-child) {
+    margin-right: 36px;
+}
+
+.communityhiik-section {
+    margin-top: 20px;
+    border: 1px solid  black;
+    border-radius: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-community {
+    color: #282828;
+    font-family: "NeutralFace";
+    font-size: 145px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.under-text-community {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 132px;
+}
+
+.dash {
+    height: 10px;
+    width: 209px;
+    border-radius: 1000px;
+    background: #282828;
+}
+
+.code {
+    width: 1474px;
+    height: 336px;
+    margin-bottom: 12px;
+}
+
+
