@@ -35,10 +35,18 @@ header {
 
 .logo {
     text-decoration: none;
+    color: #282828;
 }
 
 .page-names {
     text-decoration: none;
+    color: #000;
+    font-family: "Inter";
+    transition: 300ms;
+}
+
+.page-names:hover {
+    color: #FF4800;
 }
 
 .page-names:not(:last-child) {
