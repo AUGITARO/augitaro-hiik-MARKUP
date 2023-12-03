@@ -52,7 +52,6 @@ header {
     display: flex; 
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .text-community {
@@ -63,14 +62,18 @@ header {
     line-height: normal;
 }
 
+.text-community:not(:last-child) {
+    margin: 60px 0 0 209px;
+}
+
 .under-text-community {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 132px;
 }
 
 .dash {
+    margin: 0 66px 0 209px;
     height: 10px;
     width: 209px;
     border-radius: 1000px;
@@ -80,7 +83,7 @@ header {
 .code {
     width: 1474px;
     height: 336px;
-    margin-bottom: 12px;
+    margin:0 0 12px 13px;
 }
 
 
