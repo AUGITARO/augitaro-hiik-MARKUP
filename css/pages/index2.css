@@ -1,10 +1,10 @@
-.community-hiik-section {
+.intro {
     margin-top: 20px;
     border: 1px solid black;
     border-radius: 20px;
 }
 
-.community-hiik-section .container {
+.intro .container {
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +45,7 @@ h1 span:last-child::before {
     top: 72.5px;
 }
 
-.background-code {
+.h1 img {
     width: 1475px;
     margin: 0 12px 12px;
 }

@@ -12,14 +12,14 @@ nav {
     height: 80px;
 }
 
-.pages {
+.nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
 }
 
-.page-names {
+.nav-link {
     text-decoration: none;
     color: #000;
     font-family: Inter;
@@ -31,11 +31,11 @@ nav {
     transition: 300ms;
 }
 
-.page-names:hover {
+.nav-link:hover {
     color: #3341F1;
 }
 
-.li-header:not(:last-child) {
+.nav-item:not(:last-child) {
     margin-right: 36px;
 }
 
