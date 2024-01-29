@@ -45,7 +45,127 @@ h1 span:last-child::before {
     top: 72.5px;
 }
 
-.h1 img {
+.intro img {
     width: 1475px;
     margin: 0 12px 12px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+.about {
+    margin-top: 140px;
+}
+
+.about .container {
+    position: relative;
+}
+
+.about p {
+    position: absolute;
+    color: #3341F1;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.about h2 {
+    color: #000;
+    font-family: "NeutralFace";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 50.4px */
+    letter-spacing: -0.84px;
+    text-indent: 380px;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+.tabs {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tab {
+    border: 1px solid #3341F1;
+    width: 360px;
+    height: 271px;
+    padding: 20px 15px;
+    transition: 300ms;
+    border-radius: 10px;
+}
+
+.tab:hover {
+    background-color: #3341F1;
+}
+
+.tab:hover .tab-num {
+    color: #fff;
+}
+
+.tab:hover .tab-description {
+    color: #fff;
+}
+
+.tab:hover .tab-link p {
+    color: #fff;
+}
+
+.tab:not(:last-child) {
+    margin-right: 20px;
+}
+
+.tab-num {
+    color: #3341F1;
+    font-family: "NeutralFace";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tab-description {
+    width: 330px;
+    height: 90px;
+    margin: 27px 0;
+    color: #3341F1;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tab-link {
+    display: flex;
+    align-items: center;
+}
+
+.tab-link a {
+    width: 31px;
+    height: 31px;
+    background: url(../../img/Frame_954.svg);
+    /* border: 1px solid; */
+    background-size: contain;
+    transition: 300ms;
+}
+
+.tab:hover .tab-link a {
+    background: url(../../img/Frame_954-invrs.svg);
+    transition: 300ms;
+}
+
+.tab-link p {
+    color: #3341F1;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 15px;
 }

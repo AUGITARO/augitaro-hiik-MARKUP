@@ -28,7 +28,7 @@ nav {
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
-    transition: 300ms;
+    transition: 200ms;
 }
 
 .nav-link:hover {
