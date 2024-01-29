@@ -1,24 +1,33 @@
-header {
+.main-header .container {
     border: 1px solid black;
     border-radius: 10px;
     height: 80px;
-    padding: 0 20px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
+    height: 80px;
 }
 
-.logo {
-    position: relative;
-    bottom: -3px;
-    text-decoration: none;
-    color: #282828;
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 .page-names {
     text-decoration: none;
     color: #000;
-    font-family: "Inter";
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
     transition: 300ms;
 }
 
@@ -26,6 +35,8 @@ header {
     color: #3341F1;
 }
 
-.page-names:not(:last-child) {
+.li-header:not(:last-child) {
     margin-right: 36px;
 }
+
+
