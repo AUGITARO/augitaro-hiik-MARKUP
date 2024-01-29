@@ -1,97 +1,40 @@
-@font-face { 
-    font-family: "NeutralFace";
-    src: url(../fonts/NeutralFace-Bold.otf) format("opentype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: #F2F0ED;
+    overflow-x: hidden;
 }
 
-.container {
-    width: 1500px;
-    height: 100vh;
+/* мобильная версия */
+@media (max-width: 768px) {
+    .container {
+        /* padding: 15px; */
+    }
 }
 
-header {
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 80px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* десктопная версия */
+@media (min-width: 768px) {
+    .container {
+        /* width: 1200px; */
+        /* margin: 0 auto; */
+        /* padding: 15px; */
+    }
 }
 
-.logo {
-    text-decoration: none;
-    color: #282828;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
 
-.page-names {
-    text-decoration: none;
-    color: #000;
-    font-family: "Inter";
-    transition: 300ms;
+/* :root {
+    --scale: 0.5;
 }
 
-.page-names:hover {
-    color: #FF4800;
-}
-
-.page-names:not(:last-child) {
-    margin-right: 36px;
-}
-
-.communityhiik-section {
-    margin-top: 20px;
-    border: 1px solid  black;
-    border-radius: 20px;
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-}
-
-.text-community {
-    color: #282828;
-    font-family: "NeutralFace";
-    font-size: 145px;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.text-community:not(:last-child) {
-    margin: 60px 0 0 209px;
-}
-
-.under-text-community {
-    display: flex;
-    align-items: center;
-    height: 132px;
-}
-
-.dash {
-    margin: 0 66px 0 209px;
-    height: 10px;
-    width: 209px;
-    border-radius: 1000px;
-    background: #282828;
-}
-
-.code {
-    width: 1474px;
-    height: 336px;
-    margin:0 0 12px 13px;
-}
-
-
+.elem-1 {
+    width: calc(100px * var(--scale));
+    height: calc(100px * var(--scale));
+    font-size: calc(30px * var(--scale));
+} */

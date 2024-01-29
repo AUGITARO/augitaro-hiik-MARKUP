@@ -1,0 +1,92 @@
+footer {
+    position: relative;
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    margin-top: 140px;
+    padding: 50px 0 0 0;
+}
+
+footer::before {
+    content: "";
+    background-color: #282828;
+    position: absolute;
+    border-radius: 20px 0 0 0;
+    top: 0px;
+    left: -202px;
+    width: 202px;
+    height: 100%;
+}
+
+footer::after {
+    content: "";
+    background-color: #282828;
+    position: absolute;
+    border-radius: 0 20px 0 0;
+    top: 0px;
+    right: -201px;
+    width: 201px;
+    height: 100%;
+}
+
+footer .logo-link{
+    position: absolute;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-pages {
+    width: 370px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-pages a{
+    color: #F1F6FF;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.footer-pages a:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    width: 370px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-link a:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.work-email {
+    margin: 90px 0 120px 0; 
+    color: #F1F6FF;
+    font-family: "NeutralFace";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,67 @@
+main {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #282828;
+    font-family: "NeutralFace";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.activity-card {
+    display: flex;
+    width: 740px;
+    height: 305px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+.left-side {
+    margin-right: 20px;
+}
+
+.activity-card img {
+    width: 340px;
+    height: 265px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* .right-side {} */
+
+.tag {
+    display: inline-block;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #3341F1;
+    border-radius: 4px;
+    color: #fff;
+    padding: 7px 12px;
+    margin-bottom: 10px;
+}
+
+.activity-card-text {
+    color: #282828;
+    font-family: "NeutralFace";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 16.5px */
+    text-transform: uppercase;
+    margin-bottom: auto;
+}
+
+/* .activity-link {} */

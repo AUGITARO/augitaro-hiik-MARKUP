@@ -1,0 +1,31 @@
+header {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    bottom: -3px;
+    text-decoration: none;
+    color: #282828;
+}
+
+.page-names {
+    text-decoration: none;
+    color: #000;
+    font-family: "Inter";
+    transition: 300ms;
+}
+
+.page-names:hover {
+    color: #3341F1;
+}
+
+.page-names:not(:last-child) {
+    margin-right: 36px;
+}

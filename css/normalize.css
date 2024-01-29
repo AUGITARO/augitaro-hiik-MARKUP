@@ -1,0 +1,33 @@
+@font-face { 
+    font-family: "NeutralFace";
+    src: url(../fonts/NeutralFace-Bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "NeutralFace";
+    src: url(../fonts/NeutralFace.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ------------------------------------------------------------------------ */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F2F0ED;
+}
+
+.container {
+    width: 1500px;
+    height: 100vh;
+}
