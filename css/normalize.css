@@ -19,15 +19,8 @@
     box-sizing: border-box;
 }
 
-body {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-color: #EEF0F2;
-}
-
-.container {
-    width: 1500px;
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

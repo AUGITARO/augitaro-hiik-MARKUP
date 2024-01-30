@@ -88,11 +88,6 @@ h1 span:last-child::before {
     margin-top: 40px;
 }
 
-.tabs .container {
-    display: flex;
-    align-items: center;
-}
-
 .tab {
     display: block;
     border: 1px solid #3341F1;
@@ -162,7 +157,6 @@ h1 span:last-child::before {
 
 .tab:hover .tab-link .arrow {
     background: url(../../img/Frame_954-invrs.png);
-    transition: 250ms;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -178,6 +172,12 @@ h1 span:last-child::before {
     margin-right: 15px;
 }
 
+
+.tabs ol {
+    display: flex;
+    justify-content: space-between;
+}
+
 /*-------------------------------------------------------------------------------*/
 
 .relevant-news h2 {
@@ -191,9 +191,10 @@ h1 span:last-child::before {
     text-transform: uppercase;
 }
 
-.relevant-news .news-tabs {
+.relevant-news .news-tab-list {
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .news-tab {
@@ -202,17 +203,22 @@ h1 span:last-child::before {
     text-decoration: none;
 }
 
+.news-tab time {
+    order: -1;
+}
+
 .news-tab:not(:last-child) {
     margin-right: 20px;
 }
 
 .news-tab img {
+    order: -2;
     height: 180px;
     width: 360px;
 }
 
 .tag {
-    display: inline-block;
+    align-self: flex-start;
     font-family: Inter;
     font-size: 10px;
     font-style: normal;
@@ -264,4 +270,6 @@ h1 span:last-child::before {
     color: #3341F1;
 }
 
+
+/*-------------------------------------------------------------------------------*/
 
