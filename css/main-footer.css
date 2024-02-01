@@ -1,37 +1,25 @@
-footer {
-    position: relative;
+.main-footer {
+    margin-top: 140px;
+    height: 100%;
+    width: 100%;
     background-color: #282828;
     display: flex;
-    flex-direction: column;
-    width: 1500px;
-    margin-top: 140px;
-    padding: 50px 0 0 0;
+    justify-content: center;
+    padding-top: 50px;
+    border-radius: 20px 20px 0px 0px;
 }
 
-footer::before {
-    content: "";
-    background-color: #282828;
-    position: absolute;
-    border-radius: 20px 0 0 0;
-    top: 0px;
-    left: -202px;
-    width: 202px;
-    height: 100%;
+.main-footer .container {
+    position: relative;
 }
 
-footer::after {
-    content: "";
-    background-color: #282828;
+.logo-link {
     position: absolute;
-    border-radius: 0 20px 0 0;
-    top: 0px;
-    right: -201px;
-    width: 201px;
-    height: 100%;
 }
 
-footer .logo-link{
-    position: absolute;
+.logo-link img {
+    width: 83px;
+    height: 48px;
 }
 
 .footer-container {
@@ -64,7 +52,7 @@ footer .logo-link{
     text-decoration: none;
 }
 
-.footer-pages a:not(:last-child) {
+.footer-pages li:not(:last-child) {
     margin-bottom: 15px;
 }
 
@@ -74,15 +62,14 @@ footer .logo-link{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
 }
 
-.footer-link a:not(:last-child) {
+.footer-link li:not(:last-child) {
     margin-bottom: 30px;
 }
 
 .work-email {
-    margin: 90px 0 120px 0; 
+    margin: 90px 0 120px 0;
     color: #F1F6FF;
     font-family: "NeutralFace";
     font-size: 50px;

@@ -6,11 +6,12 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community | Главная</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="js/style.css">
     <link rel="stylesheet" href="./css/main-header.css">
     <link rel="stylesheet" href="./css/main-footer.css">
-    <link rel="stylesheet" href="./css/pages/index.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/pages/index.css">
+    <link rel="shortcut icon" href="img/hiiklogo.png" type="image/x-icon">
 
     <!-- подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,164 +19,193 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- --------------------------------------------------------------------------------------------------------- -->
 
-    <div class="container">
+    <header class="main-header">
+        <div class="container">
+            <nav>
+                <!-- content -->
+                <a class="logo" href="index.html">
+                    <img src="img/Frame_1041.svg" alt="logo">
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activity.html">Деятельность вне занятий</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Вакансии</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Мероприятия</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Расписание</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <!-- --------------------------------------------------------------------------------------------------------- -->
+    <!-- --------------------------------------------------------------------------------------------------------- -->
 
-        <header>
-            <a class="logo-link" href="#">
-                <img class="logo" src="img/Frame_1041.svg" alt="logo">
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h1>
+                    <span>Сообщество</span>
+                    <span>Студентов</span>
+                </h1>
+                <img src="img/code_for_background.png" alt="code">
+            </div>
+        </section>
+
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+
+        <section class="about">
+            <div class="container">
+                <p>О сайте</p>
+                <h2>Наш сайт предназначен для улучшения студенческой жизни и повышения качества обучения. <br>Он предоставляет различные функции и возможности, которые помогают студентам организоваться и достичь желаемого результата в институте и техникуме</h2>
+            </div>
+        </section>
+
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+
+        <section class="tabs">
+            <div class="container">
+                <ol>
+                    <li>
+                        <a class="tab" href="index.html">
+                            <p class="tab-num">01</p>
+                            <p class="tab-description">рассписание - студенты могут легко просматривать свое расписание на неделю, включая время и место проведения занятий. Это позволяет им быть в курсе и не пропускать важные пары.</p>
+                            <div class="tab-link">
+                                <p>Перейти в раздел</p>
+                                <div class="arrow"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="tab" href="activity.html">
+                            <p class="tab-num">02</p>
+                            <p class="tab-description">деятельность вне занятий - в этом разделе  студенты могут выбрать интересующие их направления, такие как спорт, искусство, наука, а так же найти нужные академические материалы.</p>
+                            <div class="tab-link">
+                                <p>Перейти в раздел</p>
+                                <div class="arrow"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="tab" href="index.html">
+                            <p class="tab-num">03</p>
+                            <p class="tab-description">вакансии – это также особый раздел нашего сайта. Здесь студенты могут найти информацию о вакансиях, стажировках и других возможностях для их будущей карьеры.</p>
+                            <div class="tab-link">
+                                <p>Перейти в раздел</p>
+                                <div class="arrow"></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="tab" href="index.html">
+                            <p class="tab-num">04</p>
+                            <p class="tab-description">мероприятия -студенты могут узнавать о предстоящих академических, спортивных, культурных и развлекательных мероприятиях в колледже. Это дает им возможность быть в курсе всех интересных событий и принимать в них участие.</p>
+                            <div class="tab-link">
+                                <p>Перейти в раздел</p>
+                                <div class="arrow"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+
+        <section class="relevant-news">
+            <div class="container">
+                <h2 class="actual">актуальное</h2>
+                <ul class="news-tab-list">
+                    <li>
+                        <a class="news-tab" href="index.html">
+                            <h3 class="news-tab-text">завершился всероссийский хакатон связи</h3>
+                            <img src="img/Frame_987.png" alt="news_img">
+                            <time class="tag">4 январь, 2024</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="news-tab" href="index.html">
+                            <h3 class="news-tab-text">ищется разработчик на языке python для разработки сайта</h3>
+                            <img src="img/Frame_988.png" alt="news_img">
+                            <time class="tag">17 май, 2024</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="news-tab" href="index.html">
+                            <h3 class="news-tab-text">происходит набор в секцию по баскетболу</h3>
+                            <img src="img/Frame_989.png" alt="news_img">
+                            <time class="tag">20 июнь, 2024</time>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="news-tab" href="index.html">
+                            <h3 class="news-tab-text">28.09 будет проходить игра мафия, всех приглашаем к участию</h3>
+                            <img src="img/Frame_990.png" alt="news_img">
+                            <time class="tag">20 июнь, 2024</time>
+                        </a>
+                    </li>
+                </ul>
+                <a  class="big-button" href="#">Смотреть больше</a>
+            </div>
+        </section>
+
+    <!-- --------------------------------------------------------------------------------------------------------- -->
+
+        <section class="feedback-form">
+            <div class="container">
+                <h2>Есть идея <br>или объявление?</h2>
+                <p>Если у вас есть идея или интересное предложение,<br>то оставьте нам сообщение и мы его рассмотрим</p>
+
+                <form action="" method="post" enctype="application/x-www-form-urlencoded">
+                    <div class="form-group">
+                        <div class="error">Введите Имя</div>
+                        <input id="first_name" type="text" name="first_name" value="" placeholder="Имя">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="error">Такой e-mail не существует или он написан некорректно</div>
+                        <input id="email" type="text" name="email" value="" placeholder="Почта">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="error">Введите сообщение</div>
+                        <textarea id="message" name="message" placeholder="Сообщение"></textarea>
+                    </div>
+
+                    <input class="big-button" type="submit" value="Оставить сообщение">
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+
+    <footer class="main-footer">
+        <div class="container">
+            <a class="logo-link" href="index.html">
+                <img src="img/logo_footer.png" alt="logo">
             </a>
-            <div class="pages">
-                <a class="page-names" href="#">Главная</a>
-                <a class="page-names" href="#">Деятельность вне занятий</a>
-                <a class="page-names" href="#">Вакансии</a>
-                <a class="page-names" href="#">Мероприятия</a>
-                <a class="page-names" href="#">Расписание</a>
-            </div>
-        </header>
 
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-
-        <div class="communityhiik-section">
-            <p class="text-community">сообщество</p>
-            <div class="under-text-community">
-                <div class="dash"></div>
-                <p class="text-community">студентов</p>
-            </div>
-            <img class="code" src="./img/code_for_background.png" alt="pngcode">
-        </div>
-
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-
-        <div class="about">
-            <p class="section-name">о сайте</p>
-            <p class="about-text">наш сайт предназначен для улучшения студенческой жизни и повышения качества обучения.<br> Он предоставляет различные функции и возможности, которые помогают студентам организоваться и достичь желаемого результата в институте и техникуме</p>
-        </div>
-
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-
-        <div class="tabs">
-            <div class="tab">
-                <p class="item">01</p>
-                <p class="tab-description">рассписание - студенты могут легко просматривать свое расписание на неделю, включая время и место проведения занятий. Это позволяет им быть в курсе и не пропускать важные пары.</p>
-                <div class="tab-link">
-                    <p>перейти в раздел</p>
-                    <a href="#"></a>
-                </div>
-            </div>
-
-            <div class="tab">
-                <p class="item">02</p>
-                <p class="tab-description">деятельность вне занятий - в этом разделе  студенты могут выбрать интересующие их направления, такие как спорт, искусство, наука, а так же найти нужные академические материалы.</p>
-                <div class="tab-link">
-                    <p>перейти в раздел</p>
-                    <a href="#"></a>
-                </div>
-            </div>
-
-            <div class="tab">
-                <p class="item">03</p>
-                <p class="tab-description">вакансии – это также особый раздел нашего сайта. Здесь студенты могут найти информацию о вакансиях, стажировках и других возможностях для их будущей карьеры.</p>
-                <div class="tab-link">
-                    <p>перейти в раздел</p>
-                    <a href="#"></a>
-                </div>
-            </div>
-
-            <div class="tab">
-                <p class="item">04</p>
-                <p class="tab-description">мероприятия -студенты могут узнавать о предстоящих академических, спортивных, культурных и развлекательных мероприятиях в колледже. Это дает им возможность быть в курсе всех интересных событий и принимать в них участие.</p>
-                <div class="tab-link">
-                    <p>перейти в раздел</p>
-                    <a href="#"></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-        
-        <p class="section-name">актуальное</p>
-        <div class="news">
-            <div class="news-tab">
-                <img src="img/Frame_987.png" alt="news_img">
-                <div class="tag">4 январь, 2024</div>
-                <p class="news-tab-text">завершился всероссийский хакатон связи</p>
-            </div>
-
-            <div class="news-tab">
-                <img src="img/Frame_988.png" alt="news_img">
-                <div class="tag">17 май, 2024</div>
-                <p class="news-tab-text">ищется разработчик на языке python для разработки сайта </p>
-            </div>
-
-            <div class="news-tab">
-                <img src="img/Frame_989.png" alt="news_img">
-                <div class="tag">20 июнь, 2024</div>
-                <p class="news-tab-text">происходит набор в секцию по баскетболу</p>
-            </div>
-
-            <div class="news-tab">
-                <img src="img/Frame_990.png" alt="news_img">
-                <div class="tag">20 февраль, 2024</div>
-                <p class="news-tab-text">28.09 будет проходить игра мафия, всех приглашаем к участию</p>
-            </div>
-
-        </div>
-
-        <a  class="big-button" href="#">Смотреть больше</a>
-
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-
-        <div class="feedback-form">
-            <p class="section-name">есть идея <br>или объявление?</p>
-            <div class="feedback-container">
-                <p>eсли у вас есть идея или интересное предложение,<br> то оставьте нам сообщение и мы его рассмотрим</p>
-                <div class="feedback-user-data">
-                    <input class="username" type="text" name="name" placeholder="Имя">
-                    <input class="username" type="email" name="email" placeholder="Почта">
-                </div>
-                <div class="feedback-message">
-                    <textarea name="message" placeholder="Сообщение"></textarea>
-                </div>
-
-                <a  class="big-button" href="#">отправить сообщение</a>
-            </div>
-        </div>
-
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-        
-        <footer>
-            <a class="logo-link" href="#">
-                <img class="logo" src="img/Frame_1041.svg" alt="logo">
-            </a>
             <div class="footer-container">
                 <div class="footer-content">
-                    <div class="footer-pages">
-                        <a href="#">главная</a>
-                        <a href="#">вакансии</a>
-                        <a href="#">расписание</a>
-                        <a href="#">мероприятия</a>
-                        <a href="#">деятельность вне занятий</a>
-                    </div>
-                    <div class="footer-link">
-                        <a href="#">
-                            <img class="logo" src="img/uil_telegram.svg" alt="Telegram group">
-                        </a>
-                        <a href="#">
-                            <img class="logo" src="img/uil_vk.svg" alt="VK group">
-                        </a>
-                    </div>
+                    <ul class="footer-pages">
+                        <li><a href="#">главная</a></li>
+                        <li><a href="#">вакансии</a></li>
+                        <li><a href="#">расписание</a></li>
+                        <li><a href="#">мероприятия</a></li>
+                        <li><a href="#">деятельность вне занятий</a></li>
+                    </ul>
+
+                    <ul class="footer-link">
+                        <li><a href="#"><img class="logo" src="img/uil_telegram.svg" alt="Telegram group"></a></li>
+                        <li><a href="#"><img class="logo" src="img/uil_vk.svg" alt="VK group"></a></li>
+                    </ul>
                 </div>
                 <h2 class="work-email">COMMUNITYHIIK@GMAIL.RU</h2>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <!-- --------------------------------------------------------------------------------------------------------- -->
-
-    </div>
-
-    <script src="./js/zoom.js"></script>
 </body>
 </html>
