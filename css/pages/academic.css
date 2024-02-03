@@ -22,6 +22,7 @@ main {
     text-align: left;
     transition: 300ms;
     width: 556px;
+    color: #282828;
 }
 
 .tab-list {
@@ -35,13 +36,14 @@ main {
     width: 740px;
     height: 305px;
     border-radius: 20px;
-    border: 1px solid;
+    border: 1px solid #282828;
     padding: 20px;
     transition: 250ms;
     margin-top: 20px;
+    text-decoration: none;
 }
 
-.tab:not(:nth-child(2n)) {
+.tab-list li:not(:nth-child(2n)) {
     margin-right: 20px;
 }
 
