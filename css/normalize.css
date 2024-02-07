@@ -1,26 +1,24 @@
-@font-face { 
-    font-family: "NeutralFace";
-    src: url(../fonts/NeutralFace-Bold.otf) format("opentype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face { 
-    font-family: "NeutralFace";
-    src: url(../fonts/NeutralFace.otf) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* ------------------------------------------------------------------------ */
-
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     box-sizing: border-box;
 }
 
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+
+/*h1, h2, h3 {*/
+/*    margin: 0;*/
+/*}*/
+
+/*p {*/
+/*    margin: 0;*/
+/*}*/
+
 ul, ol {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }

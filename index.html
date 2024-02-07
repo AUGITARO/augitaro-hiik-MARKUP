@@ -6,12 +6,12 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community | Главная</title>
-    <link rel="stylesheet" href="./css/main-header.css">
-    <link rel="stylesheet" href="./css/main-footer.css">
+    <link rel="stylesheet" href="css/layout/main-header.css">
+    <link rel="stylesheet" href="css/layout/main-footer.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="css/pages/index.css">
-    <link rel="shortcut icon" href="img/hiiklogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
     <!-- подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,27 +19,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- --------------------------------------------------------------------------------------------------------- -->
 
     <header class="main-header">
         <div class="container">
             <nav>
-                <!-- content -->
-                <a class="logo" href="index.html">
-                    <img src="img/Frame_1041.svg" alt="logo">
+                <a class="logo" href="./index.html">
+                    <img src="img/logo.svg" width="" height="" alt="logo">
                 </a>
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="activity.html">Деятельность вне занятий</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Вакансии</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Мероприятия</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Расписание</a></li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="./index.html">Главная</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Деятельность вне занятий</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Вакансии</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Мероприятия</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Расписание</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <!-- --------------------------------------------------------------------------------------------------------- -->
 
     <main>
         <section class="intro">
@@ -48,23 +54,25 @@
                     <span>Сообщество</span>
                     <span>Студентов</span>
                 </h1>
-                <img src="img/code_for_background.png" alt="code">
+                <h2 class="visually-hidden"></h2>
+                <img src="img/intro-bg.png" alt="code">
             </div>
         </section>
-
-    <!-- --------------------------------------------------------------------------------------------------------- -->
 
         <section class="about">
             <div class="container">
                 <p>О сайте</p>
-                <h2>Наш сайт предназначен для улучшения студенческой жизни и повышения качества обучения. <br>Он предоставляет различные функции и возможности, которые помогают студентам организоваться и достичь желаемого результата в институте и техникуме</h2>
+                <h2>
+                    Наш сайт предназначен для улучшения студенческой жизни и повышения качества обучения.<br>
+                    Он предоставляет различные функции и возможности,
+                    которые помогают студентам организоваться и достичь желаемого результата в институте и техникуме
+                </h2>
             </div>
         </section>
 
-    <!-- --------------------------------------------------------------------------------------------------------- -->
-
         <section class="tabs">
             <div class="container">
+                <h2 class="visually-hidden"></h2>
                 <ol>
                     <li>
                         <a class="tab" href="index.html">
@@ -110,37 +118,35 @@
             </div>
         </section>
 
-    <!-- --------------------------------------------------------------------------------------------------------- -->
-
         <section class="relevant-news">
             <div class="container">
-                <h2 class="actual">актуальное</h2>
+                <h2 class="actual">Актуальное</h2>
                 <ul class="news-tab-list">
                     <li>
                         <a class="news-tab" href="index.html">
                             <h3 class="news-tab-text">завершился всероссийский хакатон связи</h3>
-                            <img src="img/Frame_987.png" alt="news_img">
+                            <img src="img/example/Frame_987.png" alt="news_img">
                             <time class="tag">4 январь, 2024</time>
                         </a>
                     </li>
                     <li>
                         <a class="news-tab" href="index.html">
                             <h3 class="news-tab-text">ищется разработчик на языке python для разработки сайта</h3>
-                            <img src="img/Frame_988.png" alt="news_img">
+                            <img src="img/example/Frame_988.png" alt="news_img">
                             <time class="tag">17 май, 2024</time>
                         </a>
                     </li>
                     <li>
                         <a class="news-tab" href="index.html">
                             <h3 class="news-tab-text">происходит набор в секцию по баскетболу</h3>
-                            <img src="img/Frame_989.png" alt="news_img">
+                            <img src="img/example/Frame_989.png" alt="news_img">
                             <time class="tag">20 июнь, 2024</time>
                         </a>
                     </li>
                     <li>
                         <a class="news-tab" href="index.html">
                             <h3 class="news-tab-text">28.09 будет проходить игра мафия, всех приглашаем к участию</h3>
-                            <img src="img/Frame_990.png" alt="news_img">
+                            <img src="img/example/Frame_990.png" alt="news_img">
                             <time class="tag">20 июнь, 2024</time>
                         </a>
                     </li>
@@ -149,60 +155,79 @@
             </div>
         </section>
 
-    <!-- --------------------------------------------------------------------------------------------------------- -->
-
         <section class="feedback-form">
             <div class="container">
                 <h2>Есть идея <br>или объявление?</h2>
                 <p>Если у вас есть идея или интересное предложение,<br>то оставьте нам сообщение и мы его рассмотрим</p>
-
-                <form action="" method="post" enctype="application/x-www-form-urlencoded">
+                <form
+                    action=""
+                    method="post"
+                    enctype="application/x-www-form-urlencoded"
+                    autocomplete="off"
+                    novalidate
+                >
                     <div class="form-group">
                         <div class="error">Введите Имя</div>
-                        <input id="first_name" type="text" name="first_name" value="" placeholder="Имя">
+                        <input
+                            type="text"
+                            name=""
+                            value=""
+                            placeholder="Имя"
+                        >
                     </div>
-
                     <div class="form-group">
                         <div class="error">Такой e-mail не существует или он написан некорректно</div>
-                        <input id="email" type="text" name="email" value="" placeholder="Почта">
+                        <input
+                            type="text"
+                            name=""
+                            value=""
+                            placeholder="Почта"
+                        >
                     </div>
-
                     <div class="form-group">
                         <div class="error">Введите сообщение</div>
-                        <textarea id="message" name="message" placeholder="Сообщение"></textarea>
+                        <textarea
+                            name=""
+                            placeholder="Сообщение"
+                        ></textarea>
                     </div>
-
                     <input class="big-button" type="submit" value="Оставить сообщение">
                 </form>
-
             </div>
         </section>
     </main>
 
-<!-- --------------------------------------------------------------------------------------------------------- -->
-
     <footer class="main-footer">
         <div class="container">
-            <a class="logo-link" href="index.html">
-                <img src="img/logo_footer.png" alt="logo">
+            <a class="logo-link" href="./index.html">
+                <img src="img/logo-white.png" width="83" height="48" alt="logo">
             </a>
-
-            <div class="footer-container">
-                <div class="footer-content">
-                    <ul class="footer-pages">
-                        <li><a href="#">главная</a></li>
-                        <li><a href="#">вакансии</a></li>
-                        <li><a href="#">расписание</a></li>
-                        <li><a href="#">мероприятия</a></li>
-                        <li><a href="#">деятельность вне занятий</a></li>
+            <div class="inner-container">
+                <div class="row">
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="#">Главная</a></li>
+                        <li class="nav-list-item"><a href="#">Вакансии</a></li>
+                        <li class="nav-list-item"><a href="#">Расписание</a></li>
+                        <li class="nav-list-item"><a href="#">Мероприятия</a></li>
+                        <li class="nav-list-item"><a href="#">Деятельность вне занятий</a></li>
                     </ul>
-
-                    <ul class="footer-link">
-                        <li><a href="#"><img class="logo" src="img/uil_telegram.svg" alt="Telegram group"></a></li>
-                        <li><a href="#"><img class="logo" src="img/uil_vk.svg" alt="VK group"></a></li>
+                    <ul class="social-list">
+                        <li class="social-list-item">
+                            <a href="#">
+                                <img src="img/icons/tg.svg" width="" height="" alt="telegram-group">
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="#">
+                                <img src="img/icons/vk.svg" width="" height="" alt="vk-group">
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <h2 class="work-email">COMMUNITYHIIK@GMAIL.RU</h2>
+                <a
+                    class="work-email"
+                    href="mailto:communityhiik@gmail.com"
+                >communityhiik@gmail.com</a>
             </div>
         </div>
     </footer>

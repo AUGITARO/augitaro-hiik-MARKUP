@@ -6,12 +6,13 @@
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community | Академические материалы</title>
-    <link rel="stylesheet" href="./css/main-header.css">
-    <link rel="stylesheet" href="./css/main-footer.css">
+    <link rel="stylesheet" href="css/layout/main-header.css">
+    <link rel="stylesheet" href="css/layout/main-footer.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="css/pages/academic.css">
-    <link rel="shortcut icon" href="img/hiiklogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/pages/academic.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- <meta name="theme-color" content=""> -->
 
     <!-- подключение шрифтов -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,36 +20,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- --------------------------------------------------------------------------------------------------------- -->
 
     <header class="main-header">
         <div class="container">
             <nav>
-                <!-- content -->
-                <a class="logo" href="index.html">
-                    <img src="img/Frame_1041.svg" alt="logo">
+                <a class="logo" href="./index.html">
+                    <img src="img/logo.svg" width="" height="" alt="logo">
                 </a>
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Деятельность вне занятий</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Вакансии</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Мероприятия</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Расписание</a></li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="./index.html">Главная</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Деятельность вне занятий</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Вакансии</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Мероприятия</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="nav-link" href="#">Расписание</a>
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- --------------------------------------------------------------------------------------------------------- -->
-
     <main>
-
         <section class="activities">
             <div class="container">
                 <h1>Академические<br>материалы</h1>
-
+                <h2 class="visually-hidden"></h2>
                 <ul class="tab-list">
-
                     <li>
                         <a class="tab" href="#">
                             <h2>Архитектура аппаратных средств</h2>
@@ -59,7 +64,6 @@
                             </div>
                         </a>
                     </li>
-
                     <li>
                         <a class="tab" href="#">
                             <h2>Операционные системы</h2>
@@ -70,7 +74,6 @@
                             </div>
                         </a>
                     </li>
-
                     <li>
                         <a class="tab" href="#">
                             <h2>Психология общения</h2>
@@ -81,7 +84,6 @@
                             </div>
                         </a>
                     </li>
-
                     <li>
                         <a class="tab" href="#">
                             <h2>Физическая культура</h2>
@@ -92,64 +94,42 @@
                             </div>
                         </a>
                     </li>
-
-<!--                    <li class="tab">-->
-<!--                        <h2>Операционные системы</h2>-->
-<!--                        <div class="tag">Предмет</div>-->
-<!--                        <div class="tab-link">-->
-<!--                            <p>Ознакомится</p>-->
-<!--                            <div class="arrow"></div>-->
-<!--                        </div>-->
-<!--                    </li>-->
-
-<!--                    <li class="tab">-->
-<!--                        <h2>Психология общения</h2>-->
-<!--                        <div class="tag">Предмет</div>-->
-<!--                        <div class="tab-link">-->
-<!--                            <p>Ознакомится</p>-->
-<!--                            <div class="arrow"></div>-->
-<!--                        </div>-->
-<!--                    </li>-->
-
-<!--                    <li class="tab">-->
-<!--                        <h2>Физическая культура</h2>-->
-<!--                        <div class="tag">Предмет</div>-->
-<!--                        <div class="tab-link">-->
-<!--                            <p>Ознакомится</p>-->
-<!--                            <div class="arrow"></div>-->
-<!--                        </div>-->
-<!--                    </li>-->
-
                 </ul>
             </div>
         </section>
-
     </main>
-
-    <!-- --------------------------------------------------------------------------------------------------------- -->
 
     <footer class="main-footer">
         <div class="container">
-            <a class="logo-link" href="index.html">
-                <img src="img/logo_footer.png" alt="logo">
+            <a class="logo-link" href="./index.html">
+                <img src="img/logo-white.png" width="83" height="48" alt="logo">
             </a>
-
-            <div class="footer-container">
-                <div class="footer-content">
-                    <ul class="footer-pages">
-                        <li><a href="#">главная</a></li>
-                        <li><a href="#">вакансии</a></li>
-                        <li><a href="#">расписание</a></li>
-                        <li><a href="#">мероприятия</a></li>
-                        <li><a href="#">деятельность вне занятий</a></li>
+            <div class="inner-container">
+                <div class="row">
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a href="#">Главная</a></li>
+                        <li class="nav-list-item"><a href="#">Вакансии</a></li>
+                        <li class="nav-list-item"><a href="#">Расписание</a></li>
+                        <li class="nav-list-item"><a href="#">Мероприятия</a></li>
+                        <li class="nav-list-item"><a href="#">Деятельность вне занятий</a></li>
                     </ul>
-
-                    <ul class="footer-link">
-                        <li><a href="#"><img class="logo" src="img/uil_telegram.svg" alt="Telegram group"></a></li>
-                        <li><a href="#"><img class="logo" src="img/uil_vk.svg" alt="VK group"></a></li>
+                    <ul class="social-list">
+                        <li class="social-list-item">
+                            <a href="#">
+                                <img src="img/icons/tg.svg" width="" height="" alt="telegram-group">
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="#">
+                                <img src="img/icons/vk.svg" width="" height="" alt="vk-group">
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <h2 class="work-email">COMMUNITYHIIK@GMAIL.RU</h2>
+                <a
+                    class="work-email"
+                    href="mailto:communityhiik@gmail.com"
+                >communityhiik@gmail.com</a>
             </div>
         </div>
     </footer>
