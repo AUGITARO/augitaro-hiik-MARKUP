@@ -67,21 +67,14 @@ main {
     transition: 300ms;
 }
 
-.work-type b {
+.work-type .work-type-list-item b {
     display: flex;
     align-items: center;
     align-self: flex-end;
     margin-top: auto;
-}
-
-.work-type .work-type-list-item b {
     position: relative;
     height: 31px;
     padding-right: 46px;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*align-self: flex-end;*/
-    /*margin-top: auto;*/
     color: #000000;
     font-family: 'Inter';
     font-size: 15px;

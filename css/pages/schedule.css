@@ -1,0 +1,41 @@
+main {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule h1 {
+    color: #282828;
+    font-family: "NeutralFace";
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.schedule .schedule-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schedule .schedule-list-item a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.schedule .schedule-list-item a h3 {
+    margin-top: 5px;
+    font-family: NeutralFace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    order: 2;
+}
+
+.schedule-list-item:not(:nth-child(12n)) {
+    margin-right: 40px;
+}
