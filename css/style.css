@@ -10,6 +10,10 @@
     font-weight: 400;
 }
 
+:root {
+    --accent-font-color: #3341F1;
+}
+
 body {
     min-height: 100vh;
     padding-top: 20px;

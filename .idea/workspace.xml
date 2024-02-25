@@ -18,6 +18,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,32 +30,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Programs/OSPanel/domains/communityHIIK",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Programs/OSPanel/domains/communityHIIK&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Programs\OSPanel\domains\communityHIIK" />
       <recent name="C:\Programs\OSPanel\domains\communityHIIK\css\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programs\OSPanel\domains\communityHIIK" />
       <recent name="C:\Programs\OSPanel\domains\communityHIIK\img\icons" />
       <recent name="C:\Programs\OSPanel\domains\communityHIIK\img" />
       <recent name="C:\Programs\OSPanel\domains\communityHIIK\img\example" />
-      <recent name="C:\Programs\OSPanel\domains\communityHIIK" />
       <recent name="C:\Programs\OSPanel\domains\communityHIIK\icons" />
     </key>
   </component>
@@ -91,7 +92,8 @@
       <workItem from="1707286708120" duration="6473000" />
       <workItem from="1707610513775" duration="3477000" />
       <workItem from="1707614743703" duration="2006000" />
-      <workItem from="1708153883799" duration="12017000" />
+      <workItem from="1708153883799" duration="12279000" />
+      <workItem from="1708232637903" duration="7823000" />
     </task>
     <servers />
   </component>

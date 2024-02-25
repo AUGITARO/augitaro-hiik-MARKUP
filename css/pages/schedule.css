@@ -10,32 +10,48 @@ main {
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 20px;
+}
+
+.schedule .filters {
+    margin-top: 40px;
 }
 
 .schedule .schedule-list {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.schedule .schedule-list-item a {
+.schedule .schedule-list li {
+    margin: 20px 0;
+}
+
+.schedule .schedule-list li:not(:nth-child(12n)) {
+    margin-right: 40px;
+}
+
+.schedule .schedule-list li a {
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
+    width: 87px;
+    height: 91px;
     text-decoration: none;
-    margin-bottom: 40px;
+    background-image: url("../../img/icons/folder.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 67px;
+    background-position: center top;
 }
 
-.schedule .schedule-list-item a h3 {
-    margin-top: 5px;
-    font-family: NeutralFace;
+
+.schedule .schedule-list li a h3 {
+    font-family: 'NeutralFace';
     font-size: 15px;
     font-weight: 700;
     line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    order: 2;
+    color: var(--accent-font-color);
 }
 
-.schedule-list-item:not(:nth-child(12n)) {
-    margin-right: 40px;
+.schedule .schedule-list li a h3 span {
+    text-transform: uppercase;
 }
+
