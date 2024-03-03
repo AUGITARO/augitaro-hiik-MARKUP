@@ -92,7 +92,7 @@ main {
     right: 0;
     width: 31px;
     height: 31px;
-    background-image: url(../../../img/icons/arrow-blue.png);
+    background-image: url(../../img/icons/arrow-blue.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -118,7 +118,7 @@ main {
 }
 
 .work-type .work-type-list-item:hover b::after {
-    background: url(../../../img/icons/arrow-white.png);
+    background: url(../../img/icons/arrow-white.png);
     background-size: contain;
     background-repeat: no-repeat;
 }

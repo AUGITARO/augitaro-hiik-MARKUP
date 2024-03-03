@@ -1,3 +1,7 @@
+:root {
+    --intro-height: 725px;
+}
+
 .intro {
     margin: 20px auto 0;
     border: 1px solid black;
@@ -8,6 +12,11 @@
 .intro .container {
     display: flex;
     flex-direction: column;
+    height: var(--intro-height);
+    background-image: url("../../img/intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: calc(100% - 26px) calc(var(--intro-height) / 2);
+    background-position: center 350px;
 }
 
 h1 {
@@ -18,11 +27,6 @@ h1 {
 
 h1 span {
     color: #282828;
-    font-family: "NeutralFace";
-    font-size: 145px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100%;
 }
 
 h1 span:first-child {
@@ -89,39 +93,30 @@ h1 span:last-child::before {
     margin-top: 40px;
 }
 
-.tab {
-    display: block;
+.tabs ol {
+    display: flex;
+    counter-reset: item;
+}
+
+.tabs .tab {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     border: 1px solid #3341F1;
     width: 360px;
     height: 271px;
-    padding: 20px 15px;
+    padding: 95px 15px 20px;
     transition: 250ms;
     border-radius: 10px;
     text-decoration: none;
-    cursor: grab;
 }
 
-.tab:hover {
-    background-color: #3341F1;
-}
-
-.tab:hover .tab-num {
-    color: #fff;
-}
-
-.tab:hover .tab-description {
-    color: #fff;
-}
-
-.tab:hover .tab-link p {
-    color: #fff;
-}
-
-.tab:not(:last-child) {
-    margin-right: 20px;
-}
-
-.tab-num {
+.tabs .tab::before {
+    counter-increment: item;
+    content: "0" counter(item);
+    position: absolute;
+    top: 20px;
+    left: 15px;
     color: #3341F1;
     font-family: "NeutralFace";
     font-size: 45px;
@@ -130,54 +125,64 @@ h1 span:last-child::before {
     line-height: normal;
 }
 
-.tab-description {
+.tabs .tab-desc {
     width: 330px;
-    height: 90px;
-    margin: 27px 0;
     color: #3341F1;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.tab-link {
-    display: flex;
+.tabs span {
+    position: relative;
+    align-self: flex-start;
+    display: inline-flex;
     align-items: center;
+    height: 31px;
+    margin-top: auto;
+    color: #3341F1;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 41px;
 }
 
-.tab-link .arrow  {
+.tabs span::after {
+    content: "";
+    position: absolute;
     width: 31px;
     height: 31px;
+    top: 50%;
+    right: 0;
     background: url(../../img/icons/arrow-blue.png);
-    /* border: 1px solid; */
     background-size: contain;
     transition: 250ms;
     background-repeat: no-repeat;
+    transform: translateY(-50%);
 }
 
-.tab:hover .tab-link .arrow {
+.tabs .tab:hover {
+    background-color: #3341F1;
+}
+
+.tabs .tab:hover::before,
+.tabs .tab:hover .tab-desc,
+.tabs .tab:hover span {
+    color: #fff;
+}
+
+.tabs .tab:hover span::after {
     background: url(../../img/icons/arrow-white.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.tab-link p {
-    color: #3341F1;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-right: 15px;
-}
-
-
-.tabs ol {
-    display: flex;
-    justify-content: space-between;
+.tabs ol li:not(:first-child) {
+    margin-left: 20px;
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -290,6 +295,7 @@ h1 span:last-child::before {
 .feedback-form h2 {
     position: absolute;
     align-self: flex-start;
+    width: 169px;
     font-family: Inter;
     font-size: 17px;
     font-weight: 600;
