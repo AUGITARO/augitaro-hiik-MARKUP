@@ -46,8 +46,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: #F1F6FF;
+    color: #808080;
     text-decoration: none;
+    transition-duration: 200ms;
+}
+
+.main-footer .inner-container .row .nav-list a:hover {
+    color: white;
 }
 
 .main-footer .inner-container .row .nav-list li:not(:last-child) {
@@ -56,6 +61,14 @@
 
 .main-footer .inner-container .row .social-list li:not(:last-child) {
     margin-bottom: 30px;
+}
+
+.main-footer .inner-container .row .social-list-item {
+    transition-duration: 300ms;
+}
+
+.main-footer .inner-container .row .social-list-item:hover {
+    transform: translateY(-8px);
 }
 
 .main-footer .inner-container .work-email {

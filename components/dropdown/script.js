@@ -26,9 +26,7 @@ dropdownElements.forEach((dropdownElement) => {
                 dropdownElement.style.height = DROPDOWN_OPEN_HEIGHT + 'px';
             } else {
                 dropdownElement.classList.remove('dropdown--open');
-                setTimeout(() => {
-                    dropdownElement.style.height = DROPDOWN_CLOSE_HEIGHT + 'px';
-                }, DROPDOWN_TRANSITION.value);
+                dropdownElement.style.height = DROPDOWN_CLOSE_HEIGHT + 'px';
             }
         });
     }

@@ -24,7 +24,12 @@ main {
     margin-top: 20px;
 }
 
-.schedule .schedule-list li {
+.schedule .schedule-list-item:hover {
+    transform: scale(1.2) translateY(-13%);
+}
+
+.schedule .schedule-list .schedule-list-item {
+    transition-duration: 300ms;
     margin: 20px 0;
 }
 

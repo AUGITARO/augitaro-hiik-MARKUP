@@ -18,6 +18,14 @@ main {
     flex-wrap: wrap;
 }
 
+.lectures .lecture-list-item {
+    transition-duration: 300ms;
+}
+
+.lectures .lecture-list-item:hover {
+    transform: scale(1.2) translateY(13px);
+}
+
 .lectures .lecture-list-item a {
     display: flex;
     flex-direction: column;
